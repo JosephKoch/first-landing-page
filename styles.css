@@ -95,15 +95,45 @@ ul {
 .bod2 {
     display: flex;
     flex-direction: column;
+    /* border: 1px solid red; */
+    /* width: 900px; */
+    flex: 1;
+    align-items: center;
 }
 
+.textbod2-1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    width: 900px;
+    padding: 2rem;
+}
 .bod2cont {
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid red; */
+    padding-bottom: 4rem;
+    width: 750px;
 }
 
 .imgs {
     width: 150px;
+    border: 1px solid #1F2937;
+}
+
+.bod2cont1,
+.bod2cont2,
+.bod2cont3,
+.bod2cont4 {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+    font-family: Roboto;
+    gap: 1rem;
 }
 
 .bod3 {
