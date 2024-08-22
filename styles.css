@@ -8,7 +8,6 @@ body {
     flex-direction: column;
     font-family: Roboto;
 }
-
 ul {
     list-style: none;
     color: #E5E7EB;
@@ -21,7 +20,6 @@ ul {
     justify-content: center;
     /* border: 1px solid red; */
 }
-
 .hc1 {
     display: flex;
     max-width: 900px;
@@ -50,7 +48,6 @@ ul {
     justify-content: center;
     /* border: 1px solid red; */
 }
-
 .bd1 {
     display: flex;
     max-width: 900px;
@@ -59,7 +56,6 @@ ul {
     /* border: 1px solid red; */
     flex: 1;
 }
-
 .bod1-1 {
     display: flex;
     flex-direction: column;
@@ -72,21 +68,18 @@ ul {
     /* border: 1px solid red; */
     line-height: .85;
 }
-
 .bod1-1-2 {
     color: #E5E7EB;
     /* border: 1px solid red; */
     margin-top: .5rem;
 }
-
 .bu1 {
     background-color: #3882F6;
     color: #fff;
     padding: 4px 10px;
     margin: 1rem 0;
+    border-radius: 5px;
 }
-
-
 .img1 {
     width: 600px;
     height: 200px;
@@ -100,7 +93,6 @@ ul {
     flex: 1;
     align-items: center;
 }
-
 .textbod2-1 {
     font-size: 36px;
     font-weight: 900;
@@ -116,13 +108,11 @@ ul {
     padding-bottom: 4rem;
     width: 750px;
 }
-
 .imgs {
     width: 150px;
     border: 1px solid #1F2937;
     border-radius: 10px;
 }
-
 .bod2cont1,
 .bod2cont2,
 .bod2cont3,
@@ -136,20 +126,17 @@ ul {
     font-family: Roboto;
     gap: 1rem;
 }
-
 .bod3 {
     display: flex;
     /* flex-direction: column; */
     background-color: #E5E7EB;
     justify-content: center;
 }
-
 .bod3cont1 {
     display: flex;
     flex: 1;
     justify-content: center;
 }
-
 .bod3cont2 {
     display: flex;
     flex-direction: column;
@@ -158,13 +145,11 @@ ul {
     gap: 1rem;
 
 }
-
 .textbod3-1 {
     font-size: 30px;
     font-style: italic;
     color: darkgrey;
 }
-
 .textbod3-2 {
     font-size: 18px;
     align-self: flex-end;
@@ -172,7 +157,29 @@ ul {
 
 .bod4 {
     display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+.bod4cont1 {
+    display: flex;
+    width: 900px;
+    background-color: #3882F6;
+    border-radius: 8px;
     justify-content: space-between;
+    box-sizing: border-box;
+    padding: 3rem;
+}
+.libod4-1 {
+    font-weight: 900;
+    font-size: 18px;
+}
+.bubod4-1 {
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 900;
+    padding: 0 1rem;
 }
 
 .footer {
